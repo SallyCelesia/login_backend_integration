@@ -32,7 +32,7 @@ export default function AuthForm({
             AI Resume Analyzer
           </span>
           <h2 className="text-2xl font-bold mt-3">
-            {isLoginPage ? "Sign in to Resumetrics" : "Create your free account"}
+            {isLoginPage ? "Sign in to your account" : "Create your free account"}
           </h2>
         </div>
 
@@ -97,7 +97,7 @@ export default function AuthForm({
             type="submit"
             className="w-full py-3 mt-2 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold rounded-xl shadow-md hover:shadow-lg transition-all duration-200 hover:-translate-y-0.5 active:scale-95"
           >
-            {isLoginPage ? "Login to Dashboard →" : "Create Account →"}
+            {isLoginPage ? "Login" : "Create Account →"}
           </button>
         </form>
 

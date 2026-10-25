@@ -33,7 +33,7 @@ export default function App() {
       triggerErrorToast("Please enter a valid email address.");
       return false;
     }
-    if (password.length < 6) {
+    if (password.length < 6 && !isLoginPage) {
       triggerErrorToast("Password must be at least 6 characters long.");
       return false;
     }
