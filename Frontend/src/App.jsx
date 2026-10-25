@@ -6,6 +6,8 @@ import AuthForm from "./components/AuthForm";
 import Dashboard from "./components/Dashboard";
 
 export default function App() {
+
+  const API_BASE_URL = "https://resumetrics-backend-1wa0.onrender.com";
   const [darkMode, setDarkMode] = useState(false);
   const [isLoginPage, setIsLoginPage] = useState(true);
   const [loggedInUser, setLoggedInUser] = useState(null);
@@ -42,9 +44,7 @@ export default function App() {
     e.preventDefault();
     if (!validateInputs()) return;
 
-    const endpoint = isLoginPage
-      ? "http://localhost:5000/api/login"
-      : "http://localhost:5000/api/signup";
+    const endpoint = isLoginPage ? `${API_BASE_URL}/api/login` : `${API_BASE_URL}/api/signup`;
 
     const payload = isLoginPage ? { email, password } : { name, email, password };
 
