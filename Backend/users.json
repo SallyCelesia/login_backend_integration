@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1792922017754,
+    "name": "user1",
+    "email": "newuser1@gmail.com",
+    "password": "Zxcvbn1@"
+  },
+  {
+    "id": 1792922322291,
+    "name": "user2",
+    "email": "newuser2@gmail.com",
+    "password": "asdfgh"
+  },
+  {
+    "id": 1792922958995,
+    "name": "Gayathri",
+    "email": "newuser3@gmail.com",
+    "password": "qwerty"
+  },
+  {
+    "id": 1792923715038,
+    "name": "alex",
+    "email": "newuser4@gmail.com",
+    "password": "asdfgw1R@"
+  }
+]
